@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11    CMakeFiles/sniffer_dog.dir/src/sniffer_dog.cpp.o  -o sniffer_dog -rdynamic 

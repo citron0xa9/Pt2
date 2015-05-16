@@ -1,0 +1,3 @@
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung3/code/build/CMakeFiles/emailcheck.dir
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung3/code/build/CMakeFiles/exceptions.dir
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung3/code/build/CMakeFiles/sniffer_dog.dir

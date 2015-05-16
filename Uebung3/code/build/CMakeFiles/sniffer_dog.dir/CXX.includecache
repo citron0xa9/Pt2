@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung3/code/src/exceptions.cpp
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung3/code/src/sniffer_dog.cpp
+climits
+-
 iostream
--
-fstream
--
-string
--
-sstream
--
-cfloat
--
-iomanip
 -
 vector
 -
-ctime
--
-stdexcept
+algorithm
 -
 

@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11    CMakeFiles/exceptions.dir/src/exceptions.cpp.o  -o exceptions -rdynamic 

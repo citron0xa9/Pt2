@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=gnu++11    CMakeFiles/functionwrapping.dir/src/functionwrapping.cpp.o  -o functionwrapping -rdynamic 
+/usr/bin/c++   -std=gnu++11 -g    CMakeFiles/functionwrapping.dir/src/functionwrapping.cpp.o  -o functionwrapping -rdynamic 

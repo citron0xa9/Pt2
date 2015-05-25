@@ -1,0 +1,3 @@
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung4/code/build/CMakeFiles/functionwrapping.dir
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung4/code/build/CMakeFiles/genetic-tsp.dir
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung4/code/build/CMakeFiles/mapreduce.dir

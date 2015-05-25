@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung4/code/src/mapreduce.cpp
+cmath
+-
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+iomanip
+-
+map
+-
+vector
+-
+algorithm
+-
+numeric
+-
+

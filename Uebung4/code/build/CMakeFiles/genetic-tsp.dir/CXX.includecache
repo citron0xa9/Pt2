@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erik/Documents/UNI/Pt_2/git/Pt2/Uebung4/code/src/genetic-tsp.cpp
+vector
+-
+iostream
+-
+fstream
+-
+cstdlib
+-
+cassert
+-
+random
+-
+algorithm
+-
+iterator
+-
+limits
+-
+string
+-
+ctime
+-
+

@@ -30,8 +30,27 @@ std::ostream & operator<<(std::ostream & os, const std::vector<Interval> & I)
     
 	//TODO 6.3 
 	//Implement a nice print function
-	
+	const size_t MaxIdLen = std::floor(log10(N))+1;		//could be N-1 but if someday index start with 1 this version is safer
+	for (auto & i : I) {
+		size_t IdLen = (i.index != 0) ? std::floor(log10(i.index))+1 : 1;	//prevent logarithm of 0 with condition
+		const char dot = '.';
+		const char IntervalChar = '#';
+
+		std::string fill(MaxIdLen-IdLen, ' ');
+		std::string beforeI(i.start, dot);
+		std::string atI(i.end-i.start, IntervalChar);	//format of an interval: [start;end) --> end isn't printed like belonging to the interval
+		std::string afterI((MaxEnd-i.end)+1, dot);
+
+		os << "#" << i.index << fill << " |" << beforeI << atI << afterI << "|" << std::endl;
+	}
+
+
 	return os;
+}
+
+bool operator<(const Interval & a, const Interval & b)
+{
+	return (a.end < b.end);
 }
 
 //creates data
@@ -60,6 +79,7 @@ void schedule(const std::vector<Interval> & intervals)
 
 	auto sorted = intervals;
     // sort intervals
+	std::sort(sorted.begin(), sorted.end());
 
     std::cout << std::endl << "intervals (sorted):" << std::endl << sorted;
 
@@ -69,6 +89,16 @@ void schedule(const std::vector<Interval> & intervals)
     
     //ToDo 6.3
 	//implement greedy scheduling
+	int lastEnd = 0;
+	for (auto & interval : sorted) {
+		if (interval.start >= lastEnd) {	//assuming intervals are defined like [start;end) if it would be [start;end] then the compare operator would be >
+			//interval can be choosen and because sorted is sorted the choosen interval is the one with the earliest end time of all the intervals that could be choosen
+			//choose that interval
+			scheduled.push_back(interval);
+			lastEnd = interval.end;
+		}
+		//if intervall cant be choosen do nothing
+	}
 
     std::cout << std::endl << "intervals (scheduled, " << scheduled.size() << " of " << sorted.size() << " possible)" 
         << std::endl << scheduled << std::endl;

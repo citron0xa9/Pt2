@@ -1,0 +1,5 @@
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/build/CMakeFiles/change.dir
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/build/CMakeFiles/fibonacci_iterative.dir
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/build/CMakeFiles/fibonacci_recursive.dir
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/build/CMakeFiles/triangular.dir
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/build/CMakeFiles/walking_stairs.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11 -g    CMakeFiles/walking_stairs.dir/src/walking_stairs.cpp.o  -o walking_stairs -rdynamic 

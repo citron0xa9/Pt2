@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11 -g    CMakeFiles/change.dir/src/change.cpp.o  -o change -rdynamic 

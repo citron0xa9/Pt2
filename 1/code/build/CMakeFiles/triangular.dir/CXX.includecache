@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erik/Documents/UNI/Pt_2/Uebungen/1/code/src/triangular.cpp
+cstdlib
+-
+iostream
+-
+cassert
+-
+cmath
+-
+
